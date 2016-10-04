@@ -1,0 +1,169 @@
+#pointdisplay {
+  background: white;
+  width: 80px;
+  border: 3px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#box1 {
+  background: black;
+  text-align: center;
+  color: white;
+  height: 70px;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  font-style: italic;
+  margin-top: 50px;
+  font-family: Blippo, fantasy;
+  border: 3px solid black;
+}
+
+.row {
+  width: 900px;
+  height: 300px;
+  border: 3px solid black;
+  padding: 10px;
+  background-color: white;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.outer {
+  width: 250px;
+  height: 250px;
+  border: 3px solid black;
+  padding: 10px;
+  background-color: yellow;
+  margin-top: 10px;
+  margin-left: 12px;
+  margin-right: 12px;
+  float: left;
+}
+
+.inner {
+  width: 200px;
+  height: 200px;
+  border: 3px solid black;
+  padding: 10px;
+  background-color: black;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+#one {
+  width: 200px;
+  position: relative;
+  top: 110%;
+  animation: popup 1s 2s infinite;
+}
+
+#two {
+  width: 200px;
+  position: relative;
+  top: 110%;
+  animation: popup 2s 2s infinite;
+}
+
+#three {
+  width: 200px;
+  position: relative;
+  top: 110%;
+  animation: popup 2s 1s infinite;
+}
+
+#four {
+  width: 200px;
+  position: relative;
+  top: 110%;
+  animation: popup 2s 3s infinite;
+}
+
+#five {
+  width: 200px;
+  position: relative;
+  top: 110%;
+  animation: popup 2s 2s infinite;
+}
+
+#six {
+  width: 200px;
+  position: relative;
+  top: 110%;
+  animation: popup 1s 2s infinite;
+}
+
+#seven {
+  width: 200px;
+  position: relative;
+  top: 110%;
+  animation: popup 0.5s 2s infinite;
+}
+
+#eight {
+  width: 200px;
+  position: relative;
+  top: 110%;
+  animation: popup 1s 2s infinite;
+}
+
+#nine {
+  width: 200px;
+  position: relative;
+  top: 110%;
+  animation: popup 2s 2s infinite;
+}
+
+@keyframes popup {
+  50% {
+    top: 0;
+  }
+}
+
+body {
+  background-color: #5babf4;
+  cursor: url('https://cdn1.iconfinder.com/data/icons/duesseldorf/32/free-for-job.png'), auto;
+  background-image: url('http://getbg.net/upload/full/295475_vid_kartinka_krasivo_oboi_1920x1200_(www.GetBg.net).jpg');
+}
+
+.red {
+  -webkit-filter: hue-rotate(320deg);
+}
+
+.blue {
+  -webkit-filter: hue-rotate(120deg);
+}
+
+.green {
+  -webkit-filter: hue-rotate(45deg);
+}
+
+.yellow {
+  -webkit-filter: hue-rotate(0deg);
+}
+
+.orange {
+  -webkit-filter: hue-rotate(320deg);
+}
+
+.pink {
+  -webkit-filter: hue-rotate(295deg);
+}
+
+.bonus {
+  -webkit-filter: invert(100%);
+}
+
+.gray {
+  -webkit-filter: grayscale(100%);
+}
+
+.final {
+   -webkit-filter: hue-rotate(80deg);
+}
