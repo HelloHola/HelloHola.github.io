@@ -11,7 +11,7 @@ $("img").click(function() {
   });
   
   $(".red").click(function() {
-    points+=2; //means points = points + 5;
+    points+=2; //means points = points + 2;
     $('div#pointdisplay').html('Points: ' + points);
   });
   
