@@ -1,10 +1,24 @@
+#finish {
+  background: #f1efeb;
+  margin: 50px;
+  width: 900px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 70px;
+  font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+  border: solid black 20px;
+}
+
 #pointdisplay {
-  background: white;
+  background: #f1efeb;
   width: 80px;
   border: 3px solid black;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  font-family: sans-serif, arial black;
 }
 
 #box1 {
@@ -17,7 +31,7 @@
   margin-right: auto;
   font-style: italic;
   margin-top: 50px;
-  font-family: Blippo, fantasy;
+  font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
   border: 3px solid black;
 }
 
@@ -26,7 +40,7 @@
   height: 300px;
   border: 3px solid black;
   padding: 10px;
-  background-color: white;
+  background-color: #f1efeb;
   margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
@@ -37,7 +51,7 @@
   height: 250px;
   border: 3px solid black;
   padding: 10px;
-  background-color: yellow;
+  background-color: #4622b4;
   margin-top: 10px;
   margin-left: 12px;
   margin-right: 12px;
@@ -127,9 +141,9 @@
 }
 
 body {
-  background-color: yellow;
+  background-color: white;
   cursor: url('http://zynga2-a.akamaihd.net/farmville/assets/hashed/assets/newsfeed/3e6a2b87c2778f29da24001b9a704b0b.png'), auto;
-  background-image: url('http://getbg.net/upload/full/295475_vid_kartinka_krasivo_oboi_1920x1200_(www.GetBg.net).jpg');
+  background-image: url('http://images.naldzgraphics.net/2012/11/33-white-clean-seamless-brick-photoshop-pattern-set.jpg')
 }
 
 .red {
