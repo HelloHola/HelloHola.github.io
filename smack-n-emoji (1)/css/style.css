@@ -1,0 +1,216 @@
+#pointdisplay {
+  font-size: 25px;
+}
+  .emoji {
+  animation: popup 2s infinite;
+}
+
+#start {
+  background: #4622b4;
+  color: white;
+  width: 120px;
+  height: 30px;
+  border: 3px solid black;
+  margin-left: 47px;
+  margin-right: 47px;
+  margin-top: 10px;
+  margin-botttom: 10px;
+  text-align: center;
+  font-family: Sniglet;
+  font-style: bold;
+  font-size: 20px;
+  float: left;
+}
+
+.display {
+  background: #f1efeb;
+  width: 120px;
+  height: 30px;
+  border: 3px solid black;
+  margin-left: 47px;
+  margin-right: 47px;
+  margin-top: 10px;
+  margin-botttom: 10px;
+  text-align: center;
+  font-family: Sniglet;
+  font-size: 18px;
+  float: left;
+}
+
+#box1 {
+  background: black;
+  text-align: center;
+  color: white;
+  height: 80px;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size:70px;
+  margin-top: 50px;
+  font-family: "Cabin Sketch";
+  border: 3px solid black;
+}
+
+.row {
+  width: 900px;
+  height: 300px;
+  border: 3px solid black;
+  padding: 10px;
+  background-color: #f1efeb;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.displayrow {
+  width: 900px;
+  height: 60px;
+  border: 3px solid black;
+  padding: 10px;
+  background-color: #f1efeb;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.outer {
+  width: 250px;
+  height: 250px;
+  border: 3px solid black;
+  padding: 10px;
+  background-color: #4622b4;
+  margin-top: 10px;
+  margin-left: 12px;
+  margin-right: 12px;
+  float: left;
+}
+
+.inner {
+  width: 200px;
+  height: 200px;
+  border: 3px solid black;
+  padding: 10px;
+  background-color: black;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+
+
+@keyframes popup {
+  50% {
+    top: 0;
+  }
+}
+
+body {
+  background-color: white;
+  
+  background-image: url('http://images.naldzgraphics.net/2012/11/33-white-clean-seamless-brick-photoshop-pattern-set.jpg')
+}
+
+.red {
+  -webkit-filter: hue-rotate(320deg);
+}
+
+.blue {
+  -webkit-filter: hue-rotate(120deg);
+}
+
+.green {
+  -webkit-filter: hue-rotate(45deg);
+}
+
+.yellow {
+  -webkit-filter: hue-rotate(0deg);
+}
+
+.orange {
+  -webkit-filter: hue-rotate(320deg);
+}
+
+.pink {
+  -webkit-filter: hue-rotate(295deg);
+}
+
+.bonus {
+  -webkit-filter: invert(100%);
+}
+
+.gray {
+  -webkit-filter: grayscale(100%);
+}
+
+.final {
+  -webkit-filter: hue-rotate(80deg);
+}
+
+#one {
+  width: 200px;
+  position: relative;
+  top: 110%;
+  animation-delay: 2s;
+}
+
+#two {
+  width: 200px;
+  position: relative;
+  top: 110%;
+  animation-delay: 5s;
+  animation-duration: 2s;
+}
+
+#three {
+  width: 200px;
+  position: relative;
+  top: 110%;
+  animation-delay: 3s;
+}
+
+#four {
+  width: 200px;
+  position: relative;
+  top: 110%;
+  animation-delay: 8s;
+}
+
+#five {
+  width: 200px;
+  position: relative;
+  top: 110%;
+  animation-delay: 4s;
+}
+
+#six {
+  width: 200px;
+  position: relative;
+  top: 110%;
+  animation-delay: 11s;
+}
+
+#seven {
+  width: 200px;
+  position: relative;
+  top: 110%;
+  animation-delay: 3s;
+}
+
+#eight {
+  width: 200px;
+  position: relative;
+  top: 110%;
+  animation-delay: 7s;
+  animation-duration: 5s;
+}
+
+#nine {
+  width: 200px;
+  position: relative;
+  top: 110%;
+  animation-delay: 5s;
+  animation-duration: 3s;
+}
